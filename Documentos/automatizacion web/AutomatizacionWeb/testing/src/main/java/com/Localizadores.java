@@ -1,0 +1,77 @@
+package com;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+
+public class Localizadores {
+    public static void main(String[] args) {
+        // Configura la propiedad del sistema para el driver de Chrome
+        System.setProperty("webdriver.chrome.driver", "/home/kyr/Documentos/automatizacion web/AutomatizacionWeb/chromedriver");
+
+        // Configura ChromeOptions
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--start-maximized"); // Inicia el navegador en modo maximizado
+        options.addArguments("user-data-dir=/tmp/temp-profile"); // Usa un perfil temporal
+
+        // Inicializa el WebDriver con las opciones configuradas
+        WebDriver driver = new ChromeDriver(options);
+
+        try {
+            // Navega a Wikipedia
+            driver.get("https://es.wikipedia.org/wiki/Wikipedia:Portada");
+
+            // Espera explícita para asegurar que la página esté cargada
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+            Thread.sleep(5000); // Pausa para asegurar la carga completa de la página
+
+///----------------Por ID
+            WebElement userDropdown = wait.until(ExpectedConditions.elementToBeClickable(By.id("vector-user-links-dropdown")));
+            userDropdown.click();
+            System.out.println("Clic en el elemento '...' realizado.");
+
+            // Pausa de 3 segundos entre acciones
+            Thread.sleep(3000);
+
+            // Espera a que el elemento con ID 'pt-login-2' sea visible y haga clic en él
+            WebElement contribuciones = wait.until(ExpectedConditions.elementToBeClickable(By.id("pt-anoncontribs")));
+            contribuciones.click();
+            System.out.println("Clic en el elemento con ID 'pt-anoncontribs' realizado.");
+
+            // Pausa de 3 segundos entre acciones
+            Thread.sleep(3000);
+
+            //----------------------------- Por clase. ------------------------------------
+            WebElement logoLink = wait.until(ExpectedConditions.elementToBeClickable(By.className("mw-logo")));
+            logoLink.click();
+            System.out.println("Clic en el enlace con clase 'mw-logo' realizado.");
+
+               // Pausa de 3 segundos antes de finalizar
+            Thread.sleep(3000);
+
+            ///------------------------------- Por Partial text.----------------------
+
+            WebElement welcomeLink = wait.until(ExpectedConditions.elementToBeClickable(By.partialLinkText("Bienvenidos")));
+            welcomeLink.click();
+            System.out.println("Clic en el enlace con texto parcial 'Bienvenidos' realizado.");
+
+            Thread.sleep(3000);
+
+        } catch (InterruptedException e) {
+            System.err.println("La espera fue interrumpida.");
+            e.printStackTrace();
+        } catch (Exception e) {
+            System.err.println("Ocurrió un error durante la ejecución del script.");
+            e.printStackTrace();
+        } finally {
+            // Cierra el navegador
+            driver.quit();
+        }
+    }
+}
