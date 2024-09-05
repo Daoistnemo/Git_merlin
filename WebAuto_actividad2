@@ -31,7 +31,7 @@ public class Localizadores {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
             Thread.sleep(5000); // Pausa para asegurar la carga completa de la página
 
-///----------------Por ID
+            ///----------------  Por ID ------------------------------------------------------------------------
             WebElement userDropdown = wait.until(ExpectedConditions.elementToBeClickable(By.id("vector-user-links-dropdown")));
             userDropdown.click();
             System.out.println("Clic en el elemento '...' realizado.");
