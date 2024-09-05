@@ -62,7 +62,7 @@ public class Localizadores {
             System.out.println("Clic en el enlace con texto parcial 'Bienvenidos' realizado.");
 
             Thread.sleep(3000);
-
+//Excepciones en casp de que haya interrupciones
         } catch (InterruptedException e) {
             System.err.println("La espera fue interrumpida.");
             e.printStackTrace();
