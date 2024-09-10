@@ -1,0 +1,47 @@
+[96352:96352:0909/225437.361164:WARNING:chrome_main_delegate.cc(742)] This is Chrome version 128.0.6613.84 (not a warning)
+[96352:96352:0909/225437.872940:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[96393:96393:0909/225438.290538:WARNING:sandbox_linux.cc(430)] InitializeSandbox() called with multiple threads in process gpu-process.
+[96352:96352:0909/225438.947046:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[96352:96352:0909/225439.865322:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.ScreenSaver.GetActive: object_path= /org/freedesktop/ScreenSaver: org.freedesktop.DBus.Error.NotSupported: This method is not part of the idle inhibition specification: https://specifications.freedesktop.org/idle-inhibit-spec/latest/
+[96393:96393:0909/225445.375322:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[96393:96393:0909/225445.383590:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+[96396:96417:0909/225447.962912:WARNING:spdy_session.cc(2717)] Received RST for invalid stream1
+[96393:96393:0909/225452.783827:ERROR:gl_utils.cc(415)] [GroupMarkerNotSet(crbug.com/242999)!:A0A0F90014230000] GL_INVALID_ENUM: Invalid pname.
+[96393:96393:0909/225452.784795:ERROR:gl_utils.cc(415)] [GroupMarkerNotSet(crbug.com/242999)!:A0A0F90014230000] GL_INVALID_ENUM: Invalid pname.
+[96393:96393:0909/225452.785056:ERROR:context_group.cc(179)] ContextResult::kFatalFailure: ES3 is blocklisted/disabled/unsupported by driver.
+[96352:96352:0909/225500.305616:INFO:CONSOLE(2)] "[vuex] unknown getter: app/SHOW_OPEN_APP_SHEET", source: https://9gag.com/s/fab0aa49/393e42f5094885c792ce5b5041ccb533abdd7196/static/dist/es8/web/js/vendor.js (2)
+[96352:96352:0909/225500.600277:INFO:CONSOLE(1)] "[object Object]", source: https://9gag.com/s/fab0aa49/393e42f5094885c792ce5b5041ccb533abdd7196/static/dist/es8/web/js/gag.js (1)
+[96632:12:0909/225501.704996:ERROR:ffmpeg_common.cc(965)] Unsupported pixel format: -1
+[96396:96417:0909/225502.022637:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -113
+[96396:96417:0909/225502.042100:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -113
+[96393:96393:0909/225503.641839:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!
+[96352:96352:0909/225504.579091:INFO:CONSOLE(7)] "[GPT] Invalid arguments: PubAdsService.setTargeting('section', undefined).
+https://goo.gle/gpt-message#96", source: https://n3smqczqmnxwq4wpb.ay.delivery/client-v2.js (7)
+[96352:96352:0909/225505.081855:INFO:CONSOLE(0)] "The resource https://cdn.pbxai.com/dcd44e4d-5fce-4ac8-bf04-0663b18bded0.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://9gag.com/ (0)
+[96396:96417:0909/225507.944653:WARNING:spdy_session.cc(2717)] Received RST for invalid stream1
+[96352:96352:0909/225508.624608:INFO:CONSOLE(7)] "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.", source: https://n3smqczqmnxwq4wpb.ay.delivery/manager-script/yield-manager-script-v3.0.16-hotfix.4-prod (7)
+[96352:96352:0909/225508.643855:INFO:CONSOLE(7)] "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.", source: https://n3smqczqmnxwq4wpb.ay.delivery/manager-script/yield-manager-script-v3.0.16-hotfix.4-prod (7)
+[96352:96352:0909/225508.673292:INFO:CONSOLE(7)] "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.", source: https://n3smqczqmnxwq4wpb.ay.delivery/manager-script/yield-manager-script-v3.0.16-hotfix.4-prod (7)
+[96352:96352:0909/225508.743877:INFO:CONSOLE(7)] "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.", source: https://n3smqczqmnxwq4wpb.ay.delivery/manager-script/yield-manager-script-v3.0.16-hotfix.4-prod (7)
+[96352:96352:0909/225508.795926:INFO:CONSOLE(7)] "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.", source: https://n3smqczqmnxwq4wpb.ay.delivery/manager-script/yield-manager-script-v3.0.16-hotfix.4-prod (7)
+[96352:96352:0909/225508.839848:INFO:CONSOLE(0)] "Access to fetch at 'https://prediction.voltaxam.com/player/predict' from origin 'https://9gag.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.", source: https://9gag.com/ (0)
+[96352:96352:0909/225508.936568:INFO:CONSOLE(0)] "Access to fetch at 'https://rtb.voltaxam.com/videos?group=63' from origin 'https://9gag.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.", source: https://9gag.com/ (0)
+[96352:96352:0909/225514.810988:INFO:CONSOLE(2)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://proton.ad.gt') does not match the recipient window's origin ('https://9gag.com').", source: https://p.ad.gt/api/v1/p/782 (2)
+[96352:96352:0909/225514.811136:INFO:CONSOLE(2)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://proton.ad.gt') does not match the recipient window's origin ('https://9gag.com').", source: https://p.ad.gt/api/v1/p/782 (2)
+[96352:96352:0909/225518.243160:INFO:CONSOLE(7)] "[GPT] Invalid arguments: PubAdsService.setTargeting('section', undefined).
+https://goo.gle/gpt-message#96", source: https://n3smqczqmnxwq4wpb.ay.delivery/client-v2.js (7)
+[96352:96352:0909/225519.679198:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.", source:  (0)
+[96396:96417:0909/225519.923535:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 7
+[96396:96417:0909/225520.319042:WARNING:spdy_session.cc(2940)] Received WINDOW_UPDATE for invalid stream 1
+[96396:96417:0909/225520.319130:WARNING:spdy_session.cc(2940)] Received WINDOW_UPDATE for invalid stream 1
+[96352:96352:0909/225521.663387:INFO:CONSOLE(0)] "
+%c¡Detente! font-family:helvetica; font-size:20px; font-size:50px; font-weight:bold; color:red; -webkit-text-stroke:1px black;", source:  (0)
+[96352:96352:0909/225521.663595:INFO:CONSOLE(0)] "
+%cEsta función del navegador está pensada para desarrolladores. Si alguien te ha indicado que copiaras y pegaras algo aquí para habilitar una función de Facebook o para "hackear" la cuenta de alguien, se trata de un fraude. Si lo haces, esta persona podrá acceder a tu cuenta. font-family:helvetica; font-size:20px; ", source:  (0)
+[96352:96352:0909/225521.663680:INFO:CONSOLE(0)] "
+%cVer https://www.facebook.com/selfxss para obtener más información. font-family:helvetica; font-size:20px; ", source:  (0)
+[96352:96352:0909/225521.663750:INFO:CONSOLE(0)] "
+%c ", source:  (0)
+[96396:96418:0909/225527.065221:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
+[96396:96418:0909/225527.065333:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
+[96352:96352:0909/225527.196909:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

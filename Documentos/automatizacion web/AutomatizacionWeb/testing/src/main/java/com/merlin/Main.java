@@ -6,15 +6,18 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class Main {
     public static void main(String[] args) {
-        // Configura la propiedad del sistema para el driver de Chrome
         System.setProperty("webdriver.chrome.driver", "/home/kyr/Documentos/automatizacion web/AutomatizacionWeb/chromedriver");
 
-        // Configura ChromeOptions para usar un perfil temporal
+        // Configura ChromeOptions
         ChromeOptions options = new ChromeOptions();
+        options.addArguments("--start-maximized"); // Inicia el navegador en modo maximizado
         options.addArguments("user-data-dir=/tmp/temp-profile"); // Usa un perfil temporal
 
-        WebDriver driver = null;
-        try {
+        // Inicializa el WebDriver con las opciones configuradas
+        WebDriver driver = new ChromeDriver(options);
+
+
+              try {
             // Inicializa el WebDriver con las opciones configuradas
             driver = new ChromeDriver(options);
 
