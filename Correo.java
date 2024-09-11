@@ -54,7 +54,7 @@ public class Correo {
 
             // Espera y escribe el correo electrónico
             WebElement campoCorreo = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("identifierId")));
-            simulateHumanTyping(driver, campoCorreo, "kelvinjose04");
+            simulateHumanTyping(driver, campoCorreo, "notarealemail");
 
             // Espera y mueve el mouse antes de hacer clic en el botón "Siguiente"
             WebElement botonSiguiente = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button/span[text()='Siguiente']")));
